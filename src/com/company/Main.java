@@ -22,18 +22,21 @@ public class Main {
         while (!userInput.hasNextDouble()) {
             String word = userInput.next();
             System.err.println(word + " is not a number!");
+            System.out.println("Insert the value for A here:");
         }
             int a = userInput.nextInt();
             System.out.println("Insert the value for B here:");
         while (!userInput.hasNextDouble()) {
             String word = userInput.next();
             System.err.println(word + " is not a number!");
+            System.out.println("Insert the value for B here:");
         }
             int b = userInput.nextInt();
             System.out.println("Insert the value for C here:");
         while (!userInput.hasNextDouble()) {
             String word = userInput.next();
             System.err.println(word + " is not a number!");
+            System.out.println("Insert the value for C here:");
         }
             int c = userInput.nextInt();
 
@@ -51,14 +54,14 @@ public class Main {
 
         //If statements.
         if (discriminant < 0) {
-            System.out.println("There is no solution");
+            System.out.println("There is no solution.");
         }
         else if (discriminant == 0){
-            System.out.println("There is only one solution");
+            System.out.println("There is only one solution.");
             System.out.println("x1 = " + xOneSolution);
         }
         else if (discriminant > 0){
-            System.out.println("There is two solutions");
+            System.out.println("There is two solutions.");
             System.out.printf("x1 = %.0f", formulaPlus);
             System.out.printf("\nx2 = %.0f", formulaMinus);
         }
