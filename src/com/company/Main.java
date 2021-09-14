@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-	    //Think Java - Exercise 5.6
+	 //Think Java - Exercise 5.6
 
         //Import Statement.
         Scanner userInput = new Scanner(System.in);
